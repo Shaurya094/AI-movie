@@ -40,3 +40,4 @@ for i, (title, p) in enumerate(recommend(df, genre, mtype, rating), 1):
     emoji = '😊' if p > 0 else '😞' if p < 0 else '😐'
     print(Fore.CYAN + f"{i}. {title} (Polarity: {p:.2f}) {emoji}")
 print(Fore.GREEN + f"\nEnjoy your movie picks, {name}! 🍿🎁")
+
